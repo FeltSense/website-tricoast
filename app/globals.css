@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #4A8FA4;
+  --primary-light: #D7EBF0;
+  --primary-dark: #2D5662;
+  --secondary: #6A9F8A;
+  --accent: #E5A05F;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+}
